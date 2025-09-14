@@ -27,7 +27,7 @@ This project implements a **minimal SOCKS5 proxy server** in Node.js that can:
    git clone https://github.com/Roshanmb/socks5-proxy-node.git
    cd socks5-proxy-node
 
-# Unix / macOS
+MAC OS
 PORT=1080 SOCKS_USER=alice SOCKS_PASS=secret npm start
 
 curl --proxy "socks5h://alice:secret@127.0.0.1:1080" https://ipinfo.io/ip
